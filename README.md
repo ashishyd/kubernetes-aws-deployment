@@ -15,6 +15,8 @@ Go to EKS cluster and browse to compute tab, add new node
 
 You need to create new EC2 role with policies
 
+![alt text]("aws ec2 policies.png" "Policies")
+
 Once the node is created and active, run `kubectl apply` command. Note these commands are running in EKS cluster because of updated `.kube/config`
 
 rest steps are same as local minikube cluster
